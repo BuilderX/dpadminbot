@@ -1,0 +1,12 @@
+{
+  "name": "dpadminbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BuilderX/dpadminbot.git",
+  "author": "Strexicious <innocent.boy257@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "erlpack": "hammerandchisel/erlpack"
+  }
+}
