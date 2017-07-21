@@ -4,7 +4,10 @@ Discord Bot - https://anidiotsguide.gitbooks.io/discord-js-bot-guide/
 
 
 https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token
+
+Java
 https://github.com/BtoBastian/Javacord
+https://www.youtube.com/watch?v=3_pX3BsQV9I
 
 JS specific
 
