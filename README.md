@@ -1,2 +1,2 @@
 # dpadminbot
-Bot for 
+Bot for Daily Programmer[Discord] 
