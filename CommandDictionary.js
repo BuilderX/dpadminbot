@@ -10,6 +10,19 @@ function deleteCommand(CommandName, commandVal){
 }
 
 //test 
+
+function getChannel(id){ client.channels.get(id)}
+function getUsers(id){clients.user.get(id)}
+function findByKey(name,channel){ let guild = clients.guilds.find(name,channel);}
+
+//accecpted roles
+function roleFormation(role){
+     
+   const acceptedRoles = ["Mod", "Moderator", "Staff", "Mod Staff"];
+   const getModRole = member.roles.find(role => acceptedToles.includes(role.name));
+   if(!getmodRole) return "No role found";
+}
+
 //add a memeber to a role
 function roleSearc(name,role){
  let role = message.guild.roles.find(name,role);
