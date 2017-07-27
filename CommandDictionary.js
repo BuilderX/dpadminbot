@@ -31,6 +31,23 @@ function memberGrab(){
    let member = message.mentions.members.first();
    return memeber;
 }
+function grabMentionMemeber(){
+  return memeber.mention.first();
+}
+function botmessageSend(msg){
+   message.author.send(msg);
+}
+function mentionUser(user){
+      message.channel.send('Hello ${' + user + '}, How are you !')
+}
+function defaultGuildMessage(msg){
+      message.guild.defaultChannel.send(msg);
+}
+
+
+function getMemberId(ID){ return  message.guid.memebers.get(ID)}
+
+
 function addMemberRole(role, memeber){
    member.addRole(role).catch(console.error);
 }
