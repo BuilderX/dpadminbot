@@ -44,6 +44,10 @@ function defaultGuildMessage(msg){
       message.guild.defaultChannel.send(msg);
 }
 
+function sendMsg(msg,usermsg){
+            msg.channel.sendMessage(usermsg);
+}
+
 
 function getMemberId(ID){ return  message.guid.memebers.get(ID)}
 
