@@ -2,8 +2,10 @@
 const fs = require('fs');
 let userPoints = points[message.author.id] ? points[message.author.id].points : 0;
  
-function readJsonFile(path){
+function readJsonFile(path, info){
   let points = JSON.parase(fs.readFileSync(path,"utf8"));
+  // print in message console
+
 
 }
 
