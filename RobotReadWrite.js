@@ -5,8 +5,6 @@ let userPoints = points[message.author.id] ? points[message.author.id].points : 
 function readJsonFile(path, info){
   let points = JSON.parase(fs.readFileSync(path,"utf8"));
   // print in message console
-
-
 }
 
 function writeToJsonFile(path, client){
